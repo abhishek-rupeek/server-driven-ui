@@ -1,0 +1,97 @@
+{
+      "type": "Screen",
+      "appBar": {
+        "type": "AppBar",
+        "attributes": {"title": "Rupeek Demo Products"}
+      },
+      "child": {
+        "children": [
+          {
+            "type": "TextBanner",
+            "attributes": {
+              "text":
+                  "Important, As the new RBI guidelines KYC details are required. Click here!",
+              "type": "important",
+              "action": {
+                "type": "journey",
+                "link": "/kyc"
+              }
+            }
+          },
+          {
+            "type": "Carousel",
+            "attributes": {
+              "urlList": [
+                "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/1_xxhdpi.webp",
+                "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/2_xxhdpi.webp",
+                "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/3_xxhdpi.webp",
+                "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/4_xxhdpi.webp"
+              ],
+              "height": 320.0
+            }
+          },
+          {
+            "type": "Input",
+            "attributes": {
+              "name": "first_name",
+              "value": "Ray",
+              "caption": "First Name",
+              "maxLength": 30
+            }
+          },
+          {
+            "type": "Input",
+            "attributes": {
+              "name": "last_name",
+              "value": "Sponsible",
+              "caption": "Last Name",
+              "maxLength": 30
+            }
+          },
+          {
+            "type": "Input",
+            "attributes": {
+              "name": "email",
+              "value": "ray.sponsible@gmail.com",
+              "caption": "Email *",
+              "required": true
+            }
+          },
+          {
+            "type": "Input",
+            "attributes": {
+              "type": "date",
+              "name": "birth_date",
+              "caption": "Date of Birth"
+            }
+          },
+          {
+            "type": "Banner",
+            "attributes": {
+              "url":
+                  "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/atl/home/home_banner.webp",
+              "height": 250
+            }
+          },
+          {
+            "type": "Button",
+            "attributes": {
+              "caption": "Create Profile",
+              "paddingAll": 10.0,
+              "action": {
+                "type": "apiData",
+                "data": {
+                  "url": "www.rupeek.com/passData",
+                  "method": "POST",
+                  "values": ["first_name", "last_name", "email", "birth_date"]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "data": {
+        "source": "remoteAPI",
+        "apiData": {"url": "https://dummyjson.com/products", "method": "GET"}
+      }
+    }
