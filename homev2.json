@@ -46,7 +46,7 @@
 				"type": "Banner",
 				"attributes": {
 					"url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/atl/home/home_banner.webp",
-					"height": 250
+					"height": 250.0
 				}
 			}
 		]
