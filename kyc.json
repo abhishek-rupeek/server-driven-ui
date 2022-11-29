@@ -26,9 +26,11 @@
 					"caption": "Submit",
 					"action": {
 						"type": "apiData",
-						"method": "POST",
-						"url": "https://api.rupeek.com/kycDetails",
-						"values": ["aadharNumber", "fullName"]
+						"data": {
+							"method": "POST",
+							"url": "https://api.rupeek.com/kycDetails",
+							"values": ["aadharNumber", "fullName"]
+						}
 					}
 				}
 			}
