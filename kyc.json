@@ -1,0 +1,37 @@
+{
+	"type": "Screen",
+	"appBar": {
+		"type": "AppBar",
+		"attributes": {
+			"title": "KYC Validation"
+		}
+	},
+	"child": {
+		"children": [{
+				"type": "Input",
+				"attributes": {
+					"caption": "Full Name(as per Aadhar Card)",
+					"name": "fullName"
+				}
+			}, {
+				"type": "Input",
+				"attributes": {
+					"caption": "Aadhar Number",
+					"name": "aadharNumber"
+				}
+			},
+			{
+				"type": "Button",
+				"attributes": {
+					"caption": "Submit",
+					"action": {
+						"type": "apiData",
+						"method": "POST",
+						"url": "https://api.rupeek.com/kycDetails",
+						"values": ["aadharNumber", "fullName"]
+					}
+				}
+			}
+		]
+	}
+}
