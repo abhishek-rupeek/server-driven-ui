@@ -30,6 +30,18 @@
 							"method": "POST",
 							"url": "https://api.rupeek.com/kycDetails",
 							"values": ["aadharNumber", "fullName"]
+						},
+						"successAction": {
+							"type": "journey",
+							"data": {
+								"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/otp.json"
+							}
+						},
+						"failureAction": {
+							"type": "journey",
+							"data": {
+								"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/otp.json"
+							}
 						}
 					}
 				}
