@@ -13,7 +13,9 @@
 				"title": "KYC Validation",
 				"action": {
 					"type": "journey",
-					"link": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/kyc.json"
+					"data": {
+						"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/kyc.json"
+					}
 				}
 			}
 		]
@@ -26,7 +28,9 @@
 					"type": "important",
 					"action": {
 						"type": "journey",
-						"link": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/kyc.json"
+						"data": {
+							"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/kyc.json"
+						}
 					}
 				}
 			},
