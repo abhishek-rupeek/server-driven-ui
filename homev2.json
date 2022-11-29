@@ -26,7 +26,7 @@
 					"type": "important",
 					"action": {
 						"type": "journey",
-						"link": "/kyc"
+						"link": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/kyc.json"
 					}
 				}
 			},
