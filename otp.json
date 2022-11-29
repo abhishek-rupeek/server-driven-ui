@@ -1,0 +1,33 @@
+{
+	"type": "Screen",
+	"appBar": {
+		"type": "AppBar",
+		"attributes": {
+			"title": "OTP"
+		}
+	},
+	"child": {
+		"children": [{
+				"type": "Input",
+				"attributes": {
+					"caption": "OTP",
+					"name": "otp"
+				}
+			},
+			{
+				"type": "Button",
+				"attributes": {
+					"caption": "Submit",
+					"action": {
+						"type": "apiData",
+						"data": {
+							"method": "POST",
+							"url": "https://api.rupeek.com/otp",
+							"values": ["otp"]
+						}
+					}
+				}
+			}
+		]
+	}
+}
