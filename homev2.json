@@ -25,7 +25,7 @@
 				"type": "TextBanner",
 				"attributes": {
 					"text": "To enter your pincode, click here!",
-					"type": "important",
+					"type": "info",
 					"action": {
 						"type": "journey",
 						"data": {
