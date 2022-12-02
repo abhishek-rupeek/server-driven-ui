@@ -10,11 +10,11 @@
 				"isSelected": true
 			},
 			{
-				"title": "KYC Validation",
+				"title": "Pincode",
 				"action": {
 					"type": "journey",
 					"data": {
-						"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/kyc.json"
+						"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
 					}
 				}
 			}
@@ -24,12 +24,12 @@
 		"children": [{
 				"type": "TextBanner",
 				"attributes": {
-					"text": "Important, As the new RBI guidelines KYC details are required. Click here!",
+					"text": "To enter your pincode, click here!",
 					"type": "important",
 					"action": {
 						"type": "journey",
 						"data": {
-							"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/kyc.json"
+							"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
 						}
 					}
 				}
