@@ -1,0 +1,46 @@
+{
+	"type": "Screen",
+	"appBar": {
+		"type": "AppBar",
+		"attributes": {
+			"title": "Pincode Input Screen"
+		}
+	},
+	"child": {
+		"children": [{
+				"type": "Input",
+				"attributes": {
+					"caption": "Pin code",
+					"name": "pinCode"
+				}
+			},
+			{
+				"type": "Button",
+				"attributes": {
+					"caption": "Submit",
+					"action": {
+						"type": "apiData",
+						"data": {
+							"method": "POST",
+							"url_keyword": "/pincode",
+							"values": ["pinCode"],
+
+							"successAction": {
+								"type": "journey",
+								"data": {
+									"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/success.json"
+								}
+							},
+							"failureAction": {
+								"type": "journey",
+								"data": {
+									"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/success.json"
+								}
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+}
