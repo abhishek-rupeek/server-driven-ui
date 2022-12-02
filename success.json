@@ -1,0 +1,20 @@
+{
+  "type": "Screen",
+  "appBar": {
+    "type": "AppBar",
+    "attributes": {
+      "title": "Pincode Input Screen"
+    }
+  },
+  "child": {
+    "children": [
+      {
+        "type": "TextBanner",
+        "attributes": {
+          "text": "Success",
+          "type": "success"
+        }
+      }
+    ]
+  }
+}
