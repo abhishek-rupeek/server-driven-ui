@@ -11,7 +11,8 @@
 				"type": "Input",
 				"attributes": {
 					"caption": "Pin code",
-					"name": "pinCode"
+					"name": "pinCode",
+					"inputType": "number"
 				}
 			},
 			{
