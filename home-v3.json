@@ -1,0 +1,58 @@
+{
+	"type": "Screen",
+	"appBar": {
+		"type": "AppBar",
+		"attributes": {
+			"title": "Rupeek Home"
+		},
+		"hamburger": [{
+				"title": "Home",
+				"isSelected": true
+			},
+			{
+				"title": "Pincode",
+				"action": {
+					"type": "journey",
+					"data": {
+						"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+					}
+				}
+			}
+		]
+	},
+	"body": {
+		"children": [{
+				"type": "TextBanner",
+				"attributes": {
+					"text": "To enter your pincode, click here!",
+					"type": "info",
+					"action": {
+						"type": "journey",
+						"data": {
+							"journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+						}
+					}
+				}
+			},
+			{
+				"type": "Carousel",
+				"attributes": {
+					"urlList": [
+						"https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/1_xxhdpi.webp",
+						"https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/2_xxhdpi.webp",
+						"https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/3_xxhdpi.webp",
+						"https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/4_xxhdpi.webp"
+					],
+					"height": 320.0
+				}
+			},
+			{
+				"type": "Banner",
+				"attributes": {
+					"url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/atl/home/home_banner.webp",
+					"height": 250.0
+				}
+			}
+		]
+	}
+}
