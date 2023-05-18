@@ -20,7 +20,7 @@
 			}
 		]
 	},
-	"child": {
+	"body": {
 		"children": [{
 				"type": "TextBanner",
 				"attributes": {
