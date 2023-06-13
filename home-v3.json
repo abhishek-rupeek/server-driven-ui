@@ -4,22 +4,7 @@
     "type": "AppBar",
     "attributes": {
       "title": "Rupeek Home"
-    },
-    "hamburger": [
-      {
-        "title": "Home",
-        "isSelected": true
-      },
-      {
-        "title": "Pincode",
-        "action": {
-          "type": "journey",
-          "data": {
-            "journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
-          }
-        }
-      }
-    ]
+    }
   },
   "body": {
     "children": [
