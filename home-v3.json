@@ -32,7 +32,7 @@
       {
         "type": "Carousel",
         "attributes": {
-          "urlList": [
+          "bannerList": [
             {
               "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/1_xxhdpi.webp",
               "height": 320,
