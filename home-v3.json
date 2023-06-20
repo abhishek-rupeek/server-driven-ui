@@ -35,7 +35,6 @@
           "bannerList": [
             {
               "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/1_xxhdpi.webp",
-              "height": 320,
               "actions": [
                 {
                   "type": "event",
@@ -53,7 +52,6 @@
             },
             {
               "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/2_xxhdpi.webp",
-              "height": 320,
               "actions": [
                 {
                   "type": "event",
@@ -71,7 +69,6 @@
             },
             {
               "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/3_xxhdpi.webp",
-              "height": 320,
               "actions": [
                 {
                   "type": "event",
@@ -89,7 +86,6 @@
             },
             {
               "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/4_xxhdpi.webp",
-              "height": 320,
               "actions": [
                 {
                   "type": "event",
@@ -122,7 +118,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "height": 320
         }
       },
       {
