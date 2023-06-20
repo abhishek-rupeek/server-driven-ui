@@ -33,12 +33,96 @@
         "type": "Carousel",
         "attributes": {
           "urlList": [
-            "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/1_xxhdpi.webp",
-            "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/2_xxhdpi.webp",
-            "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/3_xxhdpi.webp",
-            "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/4_xxhdpi.webp"
-          ],
-          "height": 320
+            {
+              "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/1_xxhdpi.webp",
+              "height": 320,
+              "actions": [
+                {
+                  "type": "event",
+                  "data": {
+                    "eventName": "Sample Event Name 1"
+                  }
+                },
+                {
+                  "type": "journey",
+                  "data": {
+                    "journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+                  }
+                }
+              ]
+            },
+            {
+              "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/2_xxhdpi.webp",
+              "height": 320,
+              "actions": [
+                {
+                  "type": "event",
+                  "data": {
+                    "eventName": "Sample Event Name 2"
+                  }
+                },
+                {
+                  "type": "journey",
+                  "data": {
+                    "journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+                  }
+                }
+              ]
+            },
+            {
+              "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/3_xxhdpi.webp",
+              "height": 320,
+              "actions": [
+                {
+                  "type": "event",
+                  "data": {
+                    "eventName": "Sample Event Name 3"
+                  }
+                },
+                {
+                  "type": "journey",
+                  "data": {
+                    "journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+                  }
+                }
+              ]
+            },
+            {
+              "url": "https://rupeek-mobileapp.s3.ap-south-1.amazonaws.com/app-assets/ana/images/home/carousel/4_xxhdpi.webp",
+              "height": 320,
+              "actions": [
+                {
+                  "type": "event",
+                  "data": {
+                    "eventName": "Sample Event Name 4"
+                  }
+                },
+                {
+                  "type": "apiData",
+                  "data": {
+                    "method": "POST",
+                    "url_keyword": "/customerbff/test",
+                    "successActions": [
+                      {
+                        "type": "event",
+                        "data": {
+                          "eventName": "Sample Event Name Success"
+                        }
+                      }
+                    ],
+                    "failureActions": [
+                      {
+                        "type": "event",
+                        "data": {
+                          "eventName": "Sample Event Name Failure"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         }
       },
       {
