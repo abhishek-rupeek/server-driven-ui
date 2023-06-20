@@ -43,9 +43,9 @@
                   }
                 },
                 {
-                  "type": "journey",
+                  "type": "navigation",
                   "data": {
-                    "journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+                    "url": "/refer"
                   }
                 }
               ]
@@ -60,9 +60,9 @@
                   }
                 },
                 {
-                  "type": "journey",
+                  "type": "urlWebView",
                   "data": {
-                    "journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+                    "url": "https://www.rupeek.com"
                   }
                 }
               ]
@@ -77,9 +77,9 @@
                   }
                 },
                 {
-                  "type": "journey",
+                  "type": "urlBrowser",
                   "data": {
-                    "journeyLink": "https://raw.githubusercontent.com/abhishek-rupeek/server-driven-ui/main/pincode.json"
+                    "url": "https://www.rupeek.com"
                   }
                 }
               ]
