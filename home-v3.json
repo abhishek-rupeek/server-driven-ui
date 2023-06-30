@@ -45,7 +45,8 @@
                 {
                   "type": "navigation",
                   "data": {
-                    "url": "prime"
+                    "url": "com.rupeek.app_main_apk.referral.activity.ReferralFlutterActivity",
+                    "subtype": "androidActivity"
                   }
                 }
               ]
@@ -59,10 +60,11 @@
                     "eventName": "Sample Event Name 2"
                   }
                 },
-                {
-                  "type": "urlWebView",
+                  {
+                  "type": "navigation",
                   "data": {
-                    "url": "https://www.rupeek.com"
+                    "url": "/helpCenterFAQ",
+                    "subtype": "flutter"
                   }
                 }
               ]
